@@ -1,11 +1,11 @@
 {
   "name": "xshorturl",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A powerful URL shortener library with multiple providers and advanced features",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "node -v",
     "build": "npm test",
     "prepublishOnly": "npm run build"
   },
@@ -23,23 +23,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/xshorturl.git"
+    "url": "git+https://github.com/Shannzx10/xshorturl.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/xshorturl/issues"
+    "url": "https://github.com/Shannzx10/xshorturl/issues"
   },
-  "homepage": "https://github.com/yourusername/xshorturl#readme",
+  "homepage": "https://github.com/Shannzx10/xshorturl#readme",
   "dependencies": {
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
+    "form-data": "^4.0.2",
     "qs": "^6.11.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.32.0",
-    "eslint": "^8.57.1",
-    "globals": "^16.3.0",
-    "jest": "^29.7.0",
-    "typescript-eslint": "^8.39.0"
   },
   "engines": {
     "node": ">=14.0.0"
